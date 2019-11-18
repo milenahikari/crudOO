@@ -1,8 +1,8 @@
 create database crud;
 
-create table usuario(
+create table funcionarios(
     id int unsigned not null auto_increment primary key,
-    name varchar(255) not null,
+    nome varchar(255) not null,
     email varchar(255) not null,
     genero enum('m', 'f') not null,
     data_nasc date not null
